@@ -16,6 +16,7 @@ import { PAGES_ROUTES } from './pages.routing';
 // Temporal
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraficaDonaComponent } from '../components/grafica-dona/grafica-dona.component';
+import { AcountSettingsComponent } from './acount-settings/acount-settings.component';
 
 
 
@@ -26,7 +27,8 @@ import { GraficaDonaComponent } from '../components/grafica-dona/grafica-dona.co
         Graficas1Component,
         ProgressComponent,
         IncrementadorComponent,
-        GraficaDonaComponent
+        GraficaDonaComponent,
+        AcountSettingsComponent
     ],
     exports: [
         PagesComponent,
